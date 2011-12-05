@@ -12,7 +12,7 @@ module MiniTest
   #   require 'minitest/growl_notify'
   #
   class GrowlNotify
-    VERSION = "0.0.2"
+    VERSION = "0.0.3"
 
     def initialize io
       @io = io
