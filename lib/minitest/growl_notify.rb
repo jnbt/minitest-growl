@@ -9,10 +9,10 @@ module MiniTest
   # In your test helper put:
   #
   #   require 'minitest/autorun'
-  #   require 'minitest/growl'
+  #   require 'minitest/growl_notify'
   #
   class GrowlNotify
-    VERSION = "0.0.1"
+    VERSION = "0.0.2"
 
     def initialize io
       @io = io
@@ -24,7 +24,7 @@ module MiniTest
         if $1.to_i > 0 || $2.to_i > 0 # fail?
           Growl.notify_error o.first, :title => ":-( #{description}"
         else
-          Growl.notify_ok o.first, :title => ":-( #{description}"
+          Growl.notify_ok o.first, :title => ":-) #{description}"
         end
       else
         @io.puts(*o)

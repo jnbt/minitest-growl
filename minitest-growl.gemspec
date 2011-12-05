@@ -1,10 +1,10 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "minitest/growl"
+require "minitest/growl_notify"
 
 Gem::Specification.new do |s|
   s.name        = "minitest-growl"
-  s.version     = MiniTest::Growl::VERSION
+  s.version     = MiniTest::GrowlNotify::VERSION
   s.authors     = ["Jonas Thiel"]
   s.email       = ["jonasthiel+minitest-growl@googlemail.com"]
   s.homepage    = "https://github.com/jnbt/minitest-growl"
