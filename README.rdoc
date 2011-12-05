@@ -1,0 +1,29 @@
+= minitest-growl
+
+Test notifier for minitest via Growl.
+
+Source[http://github.com/jnbt/minitest-growl] |
+RDoc[http://rdoc.info/github/jnbt/minitest-growl/master/file/README.rdoc]
+
+== Usage
+
+  require 'minitest/autorun'
+  require 'minitest/growl'
+
+== Installation
+
+  gem install minitest-growl
+  
+== Dependencies
+  
+  growl gem[https://github.com/visionmedia/growl]
+  Growl[http://growl.info/]
+  growlnotify[http://growl.info/extras.php#growlnotify]
+
+== Authors
+
+* Jonas Thiel (http://github.com/jnbt)
+
+== License
+
+MIT License[http://www.opensource.org/licenses/mit-license.php]
