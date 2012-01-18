@@ -8,7 +8,7 @@ RDoc[http://rdoc.info/github/jnbt/minitest-growl/master/file/README.rdoc]
 == Usage
 
   require 'minitest/autorun'
-  require 'minitest/growl'
+  require 'minitest/growl_notify'
 
 == Installation
 
@@ -23,6 +23,8 @@ RDoc[http://rdoc.info/github/jnbt/minitest-growl/master/file/README.rdoc]
 == Authors
 
 * Jonas Thiel (http://github.com/jnbt)
+
+Inspired by: minitest-libnotify[https://github.com/splattael/minitest-libnotify]
 
 == License
 
