@@ -16,9 +16,9 @@ RDoc[http://rdoc.info/github/jnbt/minitest-growl/master/file/README.rdoc]
   
 == Dependencies
   
-  growl gem[https://github.com/visionmedia/growl]
-  Growl[http://growl.info/]
-  growlnotify[http://growl.info/extras.php#growlnotify]
+* growl gem[https://github.com/visionmedia/growl]
+* Growl[http://growl.info/]
+* growlnotify[http://growl.info/extras.php#growlnotify]
 
 == Authors
 
