@@ -1,5 +1,5 @@
 module MiniTest
-  class GrowlNotify
-    VERSION = "0.0.3"
+  module GrowlNotify
+    VERSION = '0.1.0'
   end
 end

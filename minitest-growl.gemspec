@@ -11,13 +11,11 @@ Gem::Specification.new do |s|
   s.summary     = %q{Test notifier for minitest via growl.}
   s.description = %q{Display graphical notfications when testing with minitest.}
 
-  s.rubyforge_project = "minitest-growl"
-
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_runtime_dependency 'minitest'
-  s.add_runtime_dependency 'growl'
+  s.add_dependency 'minitest', '~> 5.10'
+  s.add_dependency 'ruby-growl', '~> 4.1'
 end
