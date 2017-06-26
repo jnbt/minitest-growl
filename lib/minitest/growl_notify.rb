@@ -1,5 +1,6 @@
 require 'minitest/unit'
 require 'growl'
+require 'minitest/growl_notify/version'
 
 module MiniTest
   # Test notifier for minitest via growl.
@@ -12,8 +13,6 @@ module MiniTest
   #   require 'minitest/growl_notify'
   #
   class GrowlNotify
-    VERSION = "0.0.3"
-
     def initialize io
       @io = io
     end
